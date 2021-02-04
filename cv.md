@@ -1,4 +1,4 @@
-# [rsschool-cv](https://OlegRabushko.github.io/rsschool-cv/index.html)
+# [rsschool-cv](https://github.com/OlegRabushko/rsschool-cv/blob/rsschool-cv-html/index.html)
 
 # Rabushko Oleg
 

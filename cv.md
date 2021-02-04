@@ -56,3 +56,20 @@ const func = (num) => {
 ```
 
 -----------
+
+## Education
+
+**2020**
+Institute of Entrepreneurship: Higher education
+*Economy and business, business administration*
+
+------------
+
+## Language
+
+* **English**
+  * B1 - Intermediate
+* **Russian**
+  * C2 - Proficiency
+* **Belarusian**
+  * B2 - Upper Intermediate

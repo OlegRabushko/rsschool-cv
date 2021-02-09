@@ -4,22 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css" />
-  <title>Oleg Rabushko</title>
+  <title>OlegRabushko-cv</title>
 </head>
 <body>
-  <div class="container">
+  <summary class="container">
     <div class="modal__window">
-      <div class="left__sideinfo">
-        <img class="photo" src="./images/avatar.png">
+      <nav class="left__sideinfo">
+        <img class="photo" src="./images/avatar.png" alt="plus ten to the mark">
         <div class="contact__info">
-          <div class="side__headers">CONTACTS</div>
+          <h3 class="side__headers">CONTACTS</h3>
           <ul>
             <li>+375(33)3017178</li>
             <li>oleg.rabyshko@mail.ru</li>
           </ul>
         </div>
         <div class="strengths__info">
-          <div class="side__headers" >STRENGTHS</div>
+          <h3 class="side__headers" >STRENGTHS</h3>
           <ul>
             <li>Creativity</li>
             <li>Adaptivity</li>
@@ -30,7 +30,7 @@
           </ul>
         </div>
         <div class="skills__info">
-          <div class="side__headers">SKILLS</div>
+          <h3 class="side__headers">SKILLS</h3>
           <ul>
             <li>HTML5, CSS3, JS</li>
             <li>Git</li>
@@ -42,26 +42,35 @@
           </ul>
         </div>
         <div class="languages__info">
-          <div class="side__headers">LANGUAGES</div>
+          <h3 class="side__headers">LANGUAGES</h3>
           <ul>
             <li>English - <b>B1</b></li>
             <li>Russian - <b>C2</b></li>
             <li>Belarusian - <b>B2</b></li>
           </ul>
         </div>
-      </div>
-      <div class="right__sideinfo">
-        <div class="name__header">Rabushko Oleg</div>
-        <div class="side__headers">About Me</div>
-        <div class="side__text">I am constantly developing in areas that are interesting for me. Mind an active lifestyle. Programming is awesome! No bad habits!</div>
-        <div class="side__headers">Education</div>
-        <div class="side__text">2020 Institute of Entrepreneurship: Higher education Economy and business, business administration</div>
-        <div class="side__headers">Work experience</div>
-        <div class="side__text"><b>02.2018 — 06.2019 </b>Junior Researcher in Institute of Entrepreneurship</div>
-        <div class="side__text"><b>07.2019 — 02.2020 </b> Deputy Director for Commercial in Lady Tanvira</div>
-        <div class="side__headers">Code example</div>  
-        <pre class="code">
-          <code class="code">
+      </nav>
+      <main class="right__sideinfo">
+        <header>
+          <h1 class="name__header">Rabushko Oleg</h1>
+        </header>
+        <section>
+          <h2 class="side__headers">About Me</h2>
+          <div class="side__text">I am constantly developing in areas that are interesting for me. Mind an active lifestyle. Programming is awesome! No bad habits!</div>
+        </section>
+        <section>
+          <h2 class="side__headers">Education</h2>
+          <div class="side__text">2020 Institute of Entrepreneurship: Higher education Economy and business, business administration</div>
+        </section>
+        <section>
+          <h2 class="side__headers">Work experience</h2>
+          <div class="side__text"><b>02.2018 — 06.2019 </b>Junior Researcher in Institute of Entrepreneurship</div>
+          <div class="side__text"><b>07.2019 — 02.2020 </b> Deputy Director for Commercial in Lady Tanvira</div>
+        </section>
+        <section>
+          <h2 class="side__headers">Code example</h2>  
+          <pre class="code">
+            <code class="code">
   let value = Array(9)
     .fill(null)
     .reduce(
@@ -74,11 +83,15 @@
         second: 1,
       }
     );
-
+  
   console.log(value)</code>
-        </pre>
-      </div>
+          </pre>
+        </section>
+        <footer>
+          <h3 class="git">Git:<a href="https://github.com/OlegRabushko" class="git__ref">OlegRabushko</a></h3>
+        </footer>
+      </main>
     </div>
-  </div>
+  </summary>
 </body>
 </html>

@@ -65,7 +65,20 @@ ul li {
   font-size: 20px;
   margin-bottom: 20px;
 }
-
+.git {
+  margin-left: 20px;
+  font-size: 30px;
+}
+.git__ref {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(23, 71, 182);
+}
+.git__ref:hover {
+  color: rgb(98, 139, 236);
+}
 @media (min-width: 1600px) {
   .modal__window {
     width: 50%;
@@ -100,6 +113,12 @@ ul li {
   .side__text {
     font-size: 15px;
   }
+  .git {
+    font-size: 25px;
+  }
+  .git__ref {
+    font-size: 20px;
+  }
 }
 @media (max-width: 1100px) {
   .code {
@@ -132,6 +151,12 @@ ul li {
   .side__text {
     font-size: 12px;
   }
+  .git {
+    font-size: 20px;
+  }
+  .git__ref {
+    font-size: 15px;
+  }
 }
 @media (max-width: 850px) {
   .code {
@@ -154,6 +179,9 @@ ul li {
   }
   .side__text {
     font-size: 12px;
+    margin-left: 10px;
+  }
+  .git {
     margin-left: 10px;
   }
 }
@@ -180,6 +208,12 @@ ul li {
     font-size: 8px;
     margin-left: 10px;
   }
+  .git {
+    font-size: 15px;
+  }
+  .git__ref {
+    font-size: 10px;
+  }
 }
 @media (max-width: 520px) {
   .photo {
@@ -202,6 +236,12 @@ ul li {
   .side__text {
     font-size: 5px;
     margin-left: 10px;
+  }
+  .git {
+    font-size: 10px;
+  }
+  .git__ref {
+    font-size: 7px;
   }
 }
 @media (max-width: 400px) {
